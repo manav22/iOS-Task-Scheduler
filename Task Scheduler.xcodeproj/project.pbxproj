@@ -14,6 +14,10 @@
 		B416BFBA1B4B3BFD0078BCB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B416BFB91B4B3BFD0078BCB5 /* Images.xcassets */; };
 		B416BFBD1B4B3BFD0078BCB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B416BFBB1B4B3BFD0078BCB5 /* LaunchScreen.xib */; };
 		B416BFC91B4B3BFD0078BCB5 /* Task_SchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B416BFC81B4B3BFD0078BCB5 /* Task_SchedulerTests.m */; };
+		B416BFD41B4B3E5A0078BCB5 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B416BFD31B4B3E5A0078BCB5 /* AddTaskViewController.m */; };
+		B416BFD71B4B3EF80078BCB5 /* DetailedTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B416BFD61B4B3EF80078BCB5 /* DetailedTaskViewController.m */; };
+		B416BFDA1B4B3F340078BCB5 /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B416BFD91B4B3F340078BCB5 /* EditTaskViewController.m */; };
+		B47131351B4B9B6100ABDB0A /* taskModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B47131341B4B9B6100ABDB0A /* taskModelClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,15 @@
 		B416BFC21B4B3BFD0078BCB5 /* Task SchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Task SchedulerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B416BFC71B4B3BFD0078BCB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B416BFC81B4B3BFD0078BCB5 /* Task_SchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task_SchedulerTests.m; sourceTree = "<group>"; };
+		B416BFD21B4B3E5A0078BCB5 /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		B416BFD31B4B3E5A0078BCB5 /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		B416BFD51B4B3EF80078BCB5 /* DetailedTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedTaskViewController.h; sourceTree = "<group>"; };
+		B416BFD61B4B3EF80078BCB5 /* DetailedTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedTaskViewController.m; sourceTree = "<group>"; };
+		B416BFD81B4B3F340078BCB5 /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTaskViewController.h; sourceTree = "<group>"; };
+		B416BFD91B4B3F340078BCB5 /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTaskViewController.m; sourceTree = "<group>"; };
+		B47131321B4B98E300ABDB0A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B47131331B4B9B6100ABDB0A /* taskModelClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = taskModelClass.h; sourceTree = "<group>"; };
+		B47131341B4B9B6100ABDB0A /* taskModelClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taskModelClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,7 @@
 		B416BFA01B4B3BFC0078BCB5 = {
 			isa = PBXGroup;
 			children = (
+				B47131321B4B98E300ABDB0A /* PrefixHeader.pch */,
 				B416BFAB1B4B3BFD0078BCB5 /* Task Scheduler */,
 				B416BFC51B4B3BFD0078BCB5 /* Task SchedulerTests */,
 				B416BFAA1B4B3BFD0078BCB5 /* Products */,
@@ -85,6 +99,14 @@
 				B416BFB11B4B3BFD0078BCB5 /* AppDelegate.m */,
 				B416BFB31B4B3BFD0078BCB5 /* ViewController.h */,
 				B416BFB41B4B3BFD0078BCB5 /* ViewController.m */,
+				B416BFD21B4B3E5A0078BCB5 /* AddTaskViewController.h */,
+				B416BFD31B4B3E5A0078BCB5 /* AddTaskViewController.m */,
+				B416BFD51B4B3EF80078BCB5 /* DetailedTaskViewController.h */,
+				B416BFD61B4B3EF80078BCB5 /* DetailedTaskViewController.m */,
+				B47131331B4B9B6100ABDB0A /* taskModelClass.h */,
+				B47131341B4B9B6100ABDB0A /* taskModelClass.m */,
+				B416BFD81B4B3F340078BCB5 /* EditTaskViewController.h */,
+				B416BFD91B4B3F340078BCB5 /* EditTaskViewController.m */,
 				B416BFB61B4B3BFD0078BCB5 /* Main.storyboard */,
 				B416BFB91B4B3BFD0078BCB5 /* Images.xcassets */,
 				B416BFBB1B4B3BFD0078BCB5 /* LaunchScreen.xib */,
@@ -220,8 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B416BFB51B4B3BFD0078BCB5 /* ViewController.m in Sources */,
+				B416BFD41B4B3E5A0078BCB5 /* AddTaskViewController.m in Sources */,
 				B416BFB21B4B3BFD0078BCB5 /* AppDelegate.m in Sources */,
+				B416BFDA1B4B3F340078BCB5 /* EditTaskViewController.m in Sources */,
+				B47131351B4B9B6100ABDB0A /* taskModelClass.m in Sources */,
 				B416BFAF1B4B3BFD0078BCB5 /* main.m in Sources */,
+				B416BFD71B4B3EF80078BCB5 /* DetailedTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +369,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = "Task Scheduler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +382,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = "Task Scheduler/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +444,7 @@
 				B416BFCE1B4B3BFD0078BCB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B416BFCF1B4B3BFD0078BCB5 /* Build configuration list for PBXNativeTarget "Task SchedulerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +453,7 @@
 				B416BFD11B4B3BFD0078BCB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
